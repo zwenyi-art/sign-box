@@ -1,0 +1,21 @@
+{
+    "server": "sg.zwenyi.xyz",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "server_name": "sg.zwenyi.xyz",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "transport": {
+      "path": "/nyny",
+      "type": "ws",
+      "max_early_data": 4096,
+      "early_data_header_name": "Sec-WebSocket-Protocol"
+    },
+    "uuid": "f32032ef-8527-491b-8dc3-a04d5353d23f",
+    "tag": "CloudFlare",
+    "type": "vless"
+}
