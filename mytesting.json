@@ -90,7 +90,8 @@
           "sg1",
           "sg3",
           "CloudFlare",
-          "philp"
+          "philp",
+          "SG - အထူး"
         ]
       },
       {
@@ -175,10 +176,23 @@
       {
         "type": "ssh",
         "tag": "philp",
-        "server": "49.157.46.36",
-        "server_port": 80,
-        "user": "dffvvff54-vpnjantit.com",
-        "password": "dffvvff54"
+        "server": "206.206.77.119",
+        "server_port": 22,
+        "user": "nyny1",
+        "password": "nyny1"
+      },
+      {
+        "server": "206.206.77.119",
+        "server_port": 442,
+        "tls": {
+          "enabled": true
+        },
+        "password": "abcdef",
+        "obfs": {
+          "password": "abcdef"
+        },
+        "tag": "SG - အထူး",
+        "type": "hysteria2"
       }
     ],
     "route": {
