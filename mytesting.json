@@ -228,16 +228,6 @@
         },
         {
           "domain": [
-            "v2rayse.com",
-            "cfmem.com",
-            "vpnse.org",
-            "cff.pw",
-            "tt.vg"
-          ],
-          "outbound": "select"
-        },
-        {
-          "domain": [
             "clash.razord.top",
             "yacd.metacubex.one",
             "yacd.haishan.me",
