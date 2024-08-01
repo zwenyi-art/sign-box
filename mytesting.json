@@ -227,15 +227,6 @@
           "outbound": "select"
         },
         {
-          "domain": [
-            "clash.razord.top",
-            "yacd.metacubex.one",
-            "yacd.haishan.me",
-            "d.metacubex.one"
-          ],
-          "outbound": "direct"
-        },
-        {
             "geosite": "category-ads-all",
             "outbound": "AdBlock"
           }
