@@ -89,8 +89,9 @@
           "auto",
           "sg1",
           "sg3",
-          "sg2",
-          "CloudFlare"
+          "CloudFlare",
+          "philp",
+          "SG - အထူး"
         ]
       },
       {
@@ -99,8 +100,9 @@
         "outbounds": [
           "sg1",
           "sg3",
-          "sg2",
-          "CloudFlare"
+          "philp",
+          "CloudFlare",
+          "SG - အထူး"
         ],
         "url": "https://www.gstatic.com/generate_204",
         "interval": "1m0s",
@@ -130,9 +132,9 @@
       {
         "type": "trojan",
         "tag": "sg1",
-        "server": "103.253.24.212",
+        "server": "sg2-trojan.bonds.id",
         "server_port": 443,
-        "password": "77048900-6541-11ef-81fe-1239d0255272",
+        "password": "b41cf610-4b68-11ef-ab0f-1239d0255272",
         "tls": {
           "enabled": true,
           "server_name": "104.27.97.45",
@@ -142,26 +144,14 @@
       {
         "tag": "sg3",
         "type": "trojan",
-        "server": "103.253.24.216",
+        "server": "sg3-trojan.bonds.id",
         "server_port": 443,
         "tls": {
           "enabled": true,
           "server_name": "104.17.113.30",
           "insecure": true
         },
-        "password": "f116cd20-6541-11ef-8c6f-1239d0255272"
-      },
-      {
-        "tag": "sg2",
-        "type": "trojan",
-        "server": "103.253.24.216",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "104.17.113.30",
-          "insecure": true
-        },
-        "password": "f116cd20-6541-11ef-8c6f-1239d0255272"
+        "password": "78044ec0-4b68-11ef-8d0d-1239d0255272"
       },
       {
         "server": "sg.zwenyi.xyz",
@@ -183,6 +173,30 @@
         "uuid": "f32032ef-8527-491b-8dc3-a04d5353d23f",
         "tag": "CloudFlare",
         "type": "vless"
+      },
+      {
+        "type": "ssh",
+        "tag": "philp",
+        "server": "206.206.77.119",
+        "server_port": 22,
+        "user": "nyny1",
+        "password": "nyny1"
+      },
+      {
+        "server": "206.206.77.119",
+        "server_port": 442,
+        "tls": {
+          "enabled": true,
+          "insecure":true,
+          "server_name":"www.google.com"
+        },
+        "password": "abcdef",
+        "obfs": {
+          "type":"salamander",
+          "password": "abcdef"
+        },
+        "tag": "SG - အထူး",
+        "type": "hysteria2"
       }
     ],
     "route": {
